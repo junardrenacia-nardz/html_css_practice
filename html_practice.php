@@ -18,6 +18,7 @@
         <h4>Heading four</h4>
         <h5>Heading five</h5>
         <h6>Heading six</h6>
+        <h6>Heading Another</h6>
     </div>
 
 
