@@ -216,21 +216,30 @@
 
     <!-- Abbreviation -->
     <center>
-        <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+        <div class="cite">
+            <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
 
-        <p><cite>Spiderman</cite> by Stan Lee</p>
-
-        <!-- Blockqoute -->
-        <blockquote>
-            "To be, or not to be..."
-            <footer>— William Shakespeare, <cite>Hamlet</cite></footer>
-        </blockquote>
+            <p><cite>Spiderman</cite> by Stan Lee</p>
+            <!-- Blockqoute -->
+            <blockquote class="blockquote">
+                "To be, or not to be..."
+                <footer>— William Shakespeare, <cite>Hamlet</cite></footer>
+            </blockquote>
+        </div>
     </center>
 
 
     <!--Image and Anchor -->
     <footer class="site-footer">
-        <img src="sample_pic.jpg" alt="Footer image">
+        <div class="footer img img">
+            <img src="sample_pic.jpg" alt="Footer image" class="">
+        </div>
+        <div class="footer footer-text">
+            <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+
+            <p><cite>Spiderman</cite> by Stan Lee</p>
+        </div>
+
     </footer>
 </body>
 
