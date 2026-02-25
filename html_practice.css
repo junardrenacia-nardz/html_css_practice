@@ -1,0 +1,237 @@
+body {
+  background-color: rgb(24, 24, 24);
+  color: white;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  color: black;
+  justify-content: space-around;
+  background-color: tan;
+}
+
+.heading h1:hover,
+.heading h2:hover,
+.heading h3:hover,
+.heading h4:hover,
+.heading h5:hover,
+.heading h6:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.paragraph_one {
+  background-color: white;
+  color: black;
+  margin: 1em 5em;
+  padding: 30px;
+  border-radius: 30px;
+  font-size: 30px;
+}
+
+.paragraph_one p::before {
+  content: '"';
+  color: black;
+}
+
+.paragraph_one p::after {
+  content: '"';
+  color: black;
+}
+
+.list-lbl {
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.lists {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.lists div {
+  background-color: tan;
+  color: black;
+  width: 20%;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.lists li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+
+.lists li:hover {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.list-ol,
+.list-ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.table {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.table table {
+  background-color: white;
+  color: black;
+  border: none;
+  width: 60%;
+  border-radius: 10px;
+}
+
+.table table thead {
+  background-color: tan;
+}
+
+.table th,
+.table td {
+  padding: 5px 10px;
+  border: none;
+}
+
+.table tbody tr:nth-child(2n) {
+  background-color: gainsboro;
+}
+
+.table table,
+td,
+th {
+  border-collapse: collapse;
+  cursor: pointer;
+  text-align: center;
+}
+
+.table table tbody tr:hover {
+  background-color: rgb(228, 222, 215);
+  font-weight: bold;
+}
+
+/* .table th {
+  border: 1px solid rgb(230, 226, 222);
+} */
+
+.table tr td:first-child {
+  text-align: left;
+}
+
+.formPrac {
+  display: flex;
+  justify-content: center;
+}
+
+.formPrac .form-other {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.formPrac .form-other form {
+  width: 100%;
+}
+
+.formPrac .form-other .input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input .radio {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.input input,
+.input textarea,
+.input .radio,
+.input select {
+  width: 70%;
+  margin: 5px 0;
+  font-size: 15px;
+}
+.input input[type="text"],
+.input input[type="number"],
+.input input[type="date"],
+.input input[type="date"],
+.input textarea {
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.input select {
+  height: 40px;
+  border-radius: 10px;
+  padding: 5px;
+  width: 71%;
+}
+
+.input label {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 20%;
+}
+
+.buttons input,
+.buttons button {
+  height: 40px;
+  width: 100%;
+  border-radius: 15px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.buttons input {
+  background-color: #76c087;
+}
+
+.buttons button {
+  background-color: rgb(207, 146, 136);
+}
+
+.buttons input:hover {
+  background-color: #28a745;
+  font-weight: 900;
+  color: white;
+}
+
+.buttons button:hover {
+  background-color: tomato;
+  font-weight: 900;
+  color: white;
+}
+
+.site-footer img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
